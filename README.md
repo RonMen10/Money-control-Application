@@ -16,7 +16,7 @@ The app developed consists of several interactive and self explanatory interface
 
 - Home panel:
 
-<img scr="Images/Home.jpeg" width="50" height="100">
+<img scr="Images/Home.jpeg" width="200">
 
 - Transaction introduction interface:
 
