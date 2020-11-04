@@ -16,20 +16,20 @@ The app developed consists of several interactive and self explanatory interface
 
 - Home panel:
 
-<img scr="Images/Home.jpeg" width="200">
+![](Images/Home.png)
 
 - Transaction introduction interface:
 
-![](Images/TransactionRecord.jpeg)
+![](Images/TransactionRecord.png)
 
 - Report of transactions:
 
-![](Images/TransactionReport.jpeg)
+![](Images/TransactionReport.png)
 
 - Financial graphic reports:
 
-![](Images/PieReport.jpeg)
+![](Images/PieReport.png)
 
 - Settings:
 
-![](Images/Settings.jpeg)
+![](Images/Settings.png)
