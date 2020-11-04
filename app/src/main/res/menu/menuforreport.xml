@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:title="Apply filters"
+        android:id="@+id/filterContent" >
+    </item>-->
+    <item
+        android:id="@+id/withSelected"
+        android:title="With selected">
+        <menu>
+            <item
+                android:id="@+id/deleteTransaction"
+                android:title="Delete">
+            </item>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".BChart">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BChart">
+
+        <!-- CHART FOR CATEGORY-->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="400sp" />
+
+
+        <!-- BUTTONS FOR CATEGORY-->
+
+        <Button
+            android:id="@+id/button_rent"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="66dp"
+            android:layout_toEndOf="@+id/button_food"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="Rent" />
+
+        <Button
+            android:id="@+id/button_food"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="66dp"
+            android:layout_toEndOf="@+id/button_electricity"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="Food" />
+        <Button
+            android:id="@+id/button_electricity"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="66dp"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="Electricity" />
+        <Button
+            android:id="@+id/button_internet"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="66dp"
+            android:layout_toStartOf="@+id/button_electricity"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="Internet" />
+
+        <Button
+            android:id="@+id/button_all"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="295dp"
+            android:layout_marginBottom="66dp"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="ALL" />
+
+        <!-- BUTTONS FOR AMOUNT-->
+
+        <Button
+            android:id="@+id/button_high"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="66dp"
+            android:layout_toEndOf="@+id/button_medium"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="500+" />
+        <Button
+            android:id="@+id/button_medium"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="66dp"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="100-500" />
+        <Button
+            android:id="@+id/button_low"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginBottom="66dp"
+            android:layout_toStartOf="@+id/button_medium"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="1-99" />
+
+
+        <!-- BUTTONS FOR TIME-->
+
+        <Button
+            android:id="@+id/button_year"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="66dp"
+            android:layout_toEndOf="@+id/button_month"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="Year" />
+        <Button
+            android:id="@+id/button_month"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="66dp"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="Month" />
+        <Button
+            android:id="@+id/button_week"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginBottom="66dp"
+            android:layout_toStartOf="@+id/button_month"
+            android:background="#43153B"
+            android:textColor="#F5EDF3"
+            android:text="Week" />
+
+        <Button
+            android:id="@+id/barr_Back"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_background"
+            android:text="Back"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="left|center_horizontal"
+        android:layoutDirection="ltr"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu">
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
+
+    <!--android:layout_marginEnd="0dp"-->

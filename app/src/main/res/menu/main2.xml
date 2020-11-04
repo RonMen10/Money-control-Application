@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/incomes"
+        android:icon="@drawable/ic_work_black_24dp"
+        android:orderInCategory="100"
+        android:title="Incomes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/expenses"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:orderInCategory="101"
+        android:title="Expenses" />
+    <item
+        android:id="@+id/report"
+        android:icon="@drawable/ic_email_black_24dp"
+        android:orderInCategory="103"
+        android:title="Report" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_menu_manage"
+        android:orderInCategory="102"
+        android:title="@string/action_settings" />
+</menu>
