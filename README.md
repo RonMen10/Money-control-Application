@@ -16,20 +16,28 @@ The app developed consists of several interactive and self explanatory interface
 
 - Home panel:
 
-![](Images/Home.png)
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Money-control-Application/blob/main/Images/Home.png" width = "250" height = "400" / >
+
 
 - Transaction introduction interface:
 
-![](Images/TransactionRecord.png)
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Money-control-Application/blob/main/Images/TransactionRecord.png" width = "250" height = "400" / >
+
 
 - Report of transactions:
 
-![](Images/TransactionReport.png)
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Money-control-Application/blob/main/Images/TransactionRecord.png" width = "250" height = "400" / >
+
 
 - Financial graphic reports:
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Money-control-Application/blob/main/Images/PieReport.png" width = "250" height = "400" / >
 
-![](Images/PieReport.png)
 
 - Settings:
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Money-control-Application/blob/main/Images/Settings.png" width = "250" height = "400" / >
 
-![](Images/Settings.png)
